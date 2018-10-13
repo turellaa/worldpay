@@ -41,10 +41,10 @@ A RESTful facade backend API with CRUD services:
 
 ## Quick start
 Below all the commands to clone, build and run the project with Maven and Java 8 JDK:
-- `git clone https://github.com/francescogerardomarra/MoviesRestService.git`
-- `cd MoviesRestService`
+- `git clone https://github.com/turellaa/worldpay.git`
+- `cd worldpay`
 - `mvn -T 4 clean install`
-- `java -jar target/com-ubs-ws-movies-web-1.0.jar`
+- `java -jar target/worldpay-0.0.1-SNAPSHOT.jar`
 - the embedded servlet container starts at `http://localhost:2222`
 
 ## Running

@@ -49,7 +49,7 @@ Below all the commands to clone, build and run the project with Maven and Java 8
 
 ## Running
 
-### GET movies 
+### GET OFFERT 
 - URL is `http://localhost:2222/worldpay/product/all`
 
 JSON examples to POST a movie with no authentication:
@@ -84,7 +84,7 @@ JSON examples to POST a movie with no authentication:
 ]
 ````
 
-### GET {ID} comments
+### GET {ID} OFFERT
 - URL is `http://localhost:2222/worldpay/product/{id}`
 
 **http://localhost:2222/worldpay/product/1**

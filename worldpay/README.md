@@ -107,7 +107,7 @@ JSON examples to GET a offer by it's id :
 
 ````
 
-### PUT to create an offer with specific delay time 
+### PUT to create an offert with specific delay time 
 
 - URL is `http://localhost:2222/worldpay/product/add`
 

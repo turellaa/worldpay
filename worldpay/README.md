@@ -52,7 +52,7 @@ Below all the commands to clone, build and run the project with Maven and Java 8
 ### GET movies 
 - URL is `http://localhost:2222/worldpay/product/all`
 
-JSON examples to POST a movie with authentication:
+JSON examples to POST a movie with no authentication:
 ````
 [
     {

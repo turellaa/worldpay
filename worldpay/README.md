@@ -3,10 +3,10 @@
 </h1>
 
 A RESTful facade backend API with CRUD services:
-- Add Offer service
-- Find Offer service
-- Delete Offer
-- Update Offer
+- Add Offert service
+- Find Offert service
+- Delete Offert
+- Update Offert
 
 
 ## Toolset

@@ -30,6 +30,11 @@ A RESTful facade backend API with CRUD services:
 ### Nuances
 - An offer is time-bounded, with the length of time an offer is valid for defined as part of the offer, and should expire automatically. Offers may also be explicitly cancelled before they expire.
 
+### Assumption
+- All the users just are logged into the system.
+- The information about a single user to extract the information are not included into the example
+- The propagation of this information it's material fo security layer and will be automatically apply into the specific layer ( ex. persistence ) on demand.  
+
 ### Unit and Integration Testing
 - mocking
 - service unit testing
@@ -49,10 +54,10 @@ Below all the commands to clone, build and run the project with Maven and Java 8
 
 ## Running
 
-### GET OFFERT 
+### GET offert 
 - URL is `http://localhost:2222/worldpay/product/all`
 
-JSON examples to POST a movie with no authentication:
+JSON examples to POST a movie with authentication:
 ````
 [
     {
@@ -84,7 +89,7 @@ JSON examples to POST a movie with no authentication:
 ]
 ````
 
-### GET {ID} OFFERT
+### GET {ID} offert
 - URL is `http://localhost:2222/worldpay/product/{id}`
 
 **http://localhost:2222/worldpay/product/1**
@@ -107,7 +112,7 @@ JSON examples to GET a offer by it's id :
 
 ````
 
-### PUT to create an offert with specific delay time 
+### PUT to create an offer with specific delay time 
 
 - URL is `http://localhost:2222/worldpay/product/add`
 
@@ -128,5 +133,3 @@ Examples of returned JSONs:
         "products": []
     }
 ````
-
-
